@@ -1,6 +1,5 @@
 
-+layout: slide
-+title: “Promises Hole”
+
 ## General info
 In this project after 3 seconds you opened index.php,you will see 4 different js promises.When you click them,each will locate you another webpage.
 Two of the promises written after first one based on a random variables called x.For the promise put on div object with class name second if x is 
@@ -10,9 +9,15 @@ otherwise.But I strongly recommend you to refresh browser until you see bad luck
 designed by me.This is a really simple project designed with css viewport units js location.replace attribute js Promise object and .then consuming 
 code.It is designed to be a little rabbithole in first web layer('feel free to see all layers from this url "https://pbs.twimg.com/media/DkeV0a5UcAEM8iv.png"').I hope you will like it:)
 ## Technologies
-Project is created with:
-* PHP version: 5.6.40
-* Vanilla JS version: ECMAScript 2018
-* CSS version: 3
+```diff
++Project is created with:
++* PHP version: 5.6.40
++* Vanilla JS version: ECMAScript 2018
++* CSS version: 3
 
-## Setup
+
+-## Setup
+-You can use it on wampserver as putting in www folder than opening in localhost,or you can use Apache web server and other alternatives as well.But for this project 
+-it will also have a working remote server link and this link will be added describtion.So you can directly access this work as website from the description.Do not 
+-miss this luck:)
+```

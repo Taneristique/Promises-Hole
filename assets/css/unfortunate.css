@@ -12,6 +12,8 @@ body{
     text-align: center;
     color: white;
     font-size: 5vw;
+    height: 100vh;
+
 }
 audio{
     position: absolute;

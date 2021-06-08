@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:black;
+    color: white;
+    font-style: italic;
+}
+div:nth-of-type(n){
+    color:red;
+    display: grid;
+    font-style: normal;
+}
+div:nth-of-type(2n){
+    color:green;
+    font-style: oblique;
+
+}
+a{
+    text-decoration: none;
+}
+body h1{
+    text-align: center;
+    color: white;
+
+
+}
+
+.first::before{
+    content: 'first promise';
+    background-color: orange;
+    color: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    height: 10vh;
+
+}
+
+.first{
+    background-color: rgb(235, 177, 177);
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+
+}
+
+
+.second::before{  
+    content: 'second promise';
+    display: flex;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: turquoise;
+    font-style: oblique;
+    height: 10vh;
+}
+
+.second{
+    margin-top: 1em;
+    content: 'second promise';
+    background-color: violet;
+    height: 20vh;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+
+    
+}
+
+.third::before{  
+    content: 'third promise';
+    display: flex;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(224, 64, 64);
+    height: 10vh;
+}
+
+.third{
+    margin-top: 1em;
+    background-color: rgb(227, 238, 130);
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.forth::before{  
+    content: 'forth promise';
+    display: flex;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 235, 162);
+    height: 10vh;
+}
+
+.forth{
+    margin-top: 1em;
+    background-color: rgb(240, 209, 209);
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+
+}
+@media only screen and (max-width:363px),(max-height:200px){ /*This will fix overflow problem while width and height is smaller or equal to 363px*/
+    .first,.second,.third,.forth{
+        height: auto;
+    }
+    .first::before,.second::before,.third::before,.forth::before{
+        font-size: 1.2em;
+        height: auto;
+    }
+}

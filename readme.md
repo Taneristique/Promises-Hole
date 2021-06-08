@@ -1,6 +1,6 @@
 
-layout: slide
-title: “Promises Hole”
++layout: slide
++title: “Promises Hole”
 ## General info
 In this project after 3 seconds you opened index.php,you will see 4 different js promises.When you click them,each will locate you another webpage.
 Two of the promises written after first one based on a random variables called x.For the promise put on div object with class name second if x is 
